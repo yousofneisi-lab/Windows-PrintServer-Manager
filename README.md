@@ -40,3 +40,14 @@ Das Skript bietet ein strukturierte, farbige Konsoleoberfläche mit folgenden Fu
 1. Repository klonen oder Skript herunterladen:
 
    git clone [https://github.com/DEIN-USERNAME/Windows-PrintServer-Manager.git](https://github.com/DEIN-USERNAME/Windows-PrintServer-Manager.git)
+
+
+PowerShell als Administrator öffnen.
+
+Skript ausführen:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process .\Windows-PrintServerManager.ps1
+
+
+## Lizenz
+Dieses Projekt steht unter der MIT-Lizenz. Freie Nutzung für administrative und kommerzielle Zwecke.
